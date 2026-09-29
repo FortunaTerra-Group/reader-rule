@@ -1,0 +1,17 @@
+{
+  "name": "reader-rule-example-fragment-fanout",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Executable Reader Rule violation and fix: fragment-file fan-out with a reader that never learned about the fragments.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:violation": "vitest run violation",
+    "test:fixed": "vitest run fixed"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3",
+    "vitest": "^3.2.7"
+  }
+}
